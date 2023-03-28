@@ -1,0 +1,48 @@
+/* CSS styles for the card container and shuffle button */
+html,
+body {
+	margin: 0px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-image: url('https://wallpaperaccess.com/thumb/3288780.jpg');
+
+}
+#card-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	background-color: white;
+	border: 1px solid black;
+	width: 100px;
+	height: 150px;
+	margin: 10px;
+	padding: 5px;
+}
+#shuffle-button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.header {
+	color:white;
+	margin-left: 2.5%;
+}
+.button {
+	margin:0px;
+	color:white;
+	display: flex;
+	align-items: center;
+	max-width: 300px;
+	justify-content: space-evenly;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
